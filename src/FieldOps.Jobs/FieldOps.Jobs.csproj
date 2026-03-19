@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-FieldOps.Jobs-9c64ec70-faf0-4fa9-9e02-6bd205f16a92</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FieldOps.Application\FieldOps.Application.csproj" />
+    <ProjectReference Include="..\FieldOps.Infrastructure\FieldOps.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
